@@ -5,8 +5,8 @@
     <classes>
       <class name="Test.MyTestCases">
         <methods>
-          <include name="MouseHover"/>
           <include name="myTestSetup"/>
+          <include name="Calender"/>
         </methods>
       </class> <!-- Test.MyTestCases -->
     </classes>
