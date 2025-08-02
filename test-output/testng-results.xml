@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="11" total="16" passed="5" failed="0" skipped="0">
+<testng-results ignored="13" total="16" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-23T23:50:36 AST" name="Default suite" finished-at="2025-07-23T23:50:54 AST" duration-ms="18536">
+  <suite started-at="2025-08-02T17:43:21 AST" name="Default suite" finished-at="2025-08-02T17:43:43 AST" duration-ms="21710">
     <groups>
     </groups>
-    <test started-at="2025-07-23T23:50:36 AST" name="Default test" finished-at="2025-07-23T23:50:54 AST" duration-ms="18536">
+    <test started-at="2025-08-02T17:43:21 AST" name="Default test" finished-at="2025-08-02T17:43:43 AST" duration-ms="21710">
       <class name="Test.MyTestCases">
-        <test-method is-config="true" signature="myTestSetup()[pri:0, instance:Test.MyTestCases@4d722ac9]" started-at="2025-07-23T23:50:36 AST" name="myTestSetup" finished-at="2025-07-23T23:50:44 AST" duration-ms="8339" status="PASS">
+        <test-method is-config="true" signature="myTestSetup()[pri:0, instance:Test.MyTestCases@53f0a4cb]" started-at="2025-08-02T17:43:21 AST" name="myTestSetup" finished-at="2025-08-02T17:43:37 AST" duration-ms="15776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myTestSetup -->
-        <test-method signature="addData()[pri:1, instance:Test.MyTestCases@4d722ac9]" started-at="2025-07-23T23:50:44 AST" name="addData" finished-at="2025-07-23T23:50:44 AST" duration-ms="52" status="PASS">
+        <test-method signature="addData()[pri:1, instance:Test.MyTestCases@53f0a4cb]" started-at="2025-08-02T17:43:37 AST" name="addData" finished-at="2025-08-02T17:43:37 AST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addData -->
-        <test-method signature="updateData()[pri:2, instance:Test.MyTestCases@4d722ac9]" started-at="2025-07-23T23:50:44 AST" name="updateData" finished-at="2025-07-23T23:50:44 AST" duration-ms="19" status="PASS">
+        <test-method signature="updateData()[pri:2, instance:Test.MyTestCases@53f0a4cb]" started-at="2025-08-02T17:43:37 AST" name="updateData" finished-at="2025-08-02T17:43:37 AST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateData -->
-        <test-method signature="Calender()[pri:3, instance:Test.MyTestCases@4d722ac9]" started-at="2025-07-23T23:50:44 AST" name="Calender" finished-at="2025-07-23T23:50:50 AST" duration-ms="5482" status="PASS">
+        <test-method signature="Calender()[pri:3, instance:Test.MyTestCases@53f0a4cb]" started-at="2025-08-02T17:43:37 AST" name="Calender" finished-at="2025-08-02T17:43:43 AST" duration-ms="5811" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Calender -->
-        <test-method signature="deleteData()[pri:4, instance:Test.MyTestCases@4d722ac9]" started-at="2025-07-23T23:50:50 AST" name="deleteData" finished-at="2025-07-23T23:50:50 AST" duration-ms="60" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteData -->
-        <test-method signature="TakeAscreenShot()[pri:5, instance:Test.MyTestCases@4d722ac9]" started-at="2025-07-23T23:50:50 AST" name="TakeAscreenShot" finished-at="2025-07-23T23:50:54 AST" duration-ms="4504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TakeAscreenShot -->
       </class> <!-- Test.MyTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

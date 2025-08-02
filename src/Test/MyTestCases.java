@@ -1,6 +1,5 @@
 package Test;
 
-import java.awt.Window;
 import java.io.File;
 import java.io.IOException;
 import java.sql.Connection;
@@ -14,8 +13,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
-
-import javax.xml.xpath.XPath;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -274,7 +271,7 @@ public class MyTestCases {
 
 		int RandomID = rand.nextInt(144, 147);
 
-		String QueryToRead = "select * from customers where customerNumber ="+randomID;
+		String QueryToRead = "select * from customers where customerNumber ="+ RandomID;
 
 		stmt = con.createStatement();
 		rs = stmt.executeQuery(QueryToRead); // the rs used for read only
@@ -297,7 +294,7 @@ public class MyTestCases {
 
 	}
 	
-	@Test(priority = 4, enabled = true)
+	@Test(priority = 4, enabled = false)
 	public void deleteData() throws SQLException {
 		
 		System.out.println(randomID);
@@ -310,7 +307,7 @@ public class MyTestCases {
 		System.out.println(rowInserted);
 	}
 
-	@Test (priority = 5, enabled = true)
+	@Test (priority = 5, enabled = false)
 	public void TakeAscreenShot () throws IOException, InterruptedException {
 		
 		Date timestamp = new Date();
